@@ -1,4 +1,6 @@
-App.FileLoadView = Ember.View.extend({
+import Ember from 'ember';
+
+export default Ember.View.extend({
   templateName: '_file_load_view',
   in_progress: false,
   error: false,
